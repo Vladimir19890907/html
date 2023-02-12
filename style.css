@@ -60,7 +60,7 @@
     justify-content: center;
 }
 .portfolio__btn:after {
-    content: url(../project/png/strele.png);
+    content: url(../html/png/strele.png);
     width: 13px;
     height: 8px;
     margin-left: 8px;
@@ -72,7 +72,10 @@
 .footer {
     background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
     box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
-padding: 50px 0;
+    padding: 50px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
 }
 .footer
 .container {
@@ -94,3 +97,26 @@ list-style: none;
 li.nav__item:last-child {
     margin-bottom: 0;
 }
+
+.icon {
+    display: flex;
+    height: 25px;
+    margin-right: 10px;
+}
+.icon:last-child {
+    margin-right: 0;
+}
+.icon__bar {
+    display: flex;}
+
+    .logotip {
+        display: flex;
+        margin-bottom: 70px;
+    }
+
+.logo {
+    margin-right: 15px;
+}
+
+    .logo__text {
+        align-self: center;}
